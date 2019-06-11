@@ -106,3 +106,11 @@ runners.forEach(function (names) {
 console.log(emailList);
 
 // Problem 3
+// The event director needs both the runners name if it starts with an A to enter them into a raffle.
+let vowelNames = [];
+runners.filter(function(name) {
+  if (name.first_name.startsWith("A")) {
+    vowelNames.push(name)
+  }
+});
+console.log(vowelNames);
