@@ -36,7 +36,7 @@ function last(arr, cb) {
 }
 
 function sumNums(x, y, cb) {
-  // sumNums adds two numbers (x, y) and passes the result to the callback.
+        // sumNums adds two numbers (x, y) and passes the result to the callback.
     return cb(x+y);
 }
 
